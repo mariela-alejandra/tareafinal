@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Document</title>
+</head>
+<style>
+    .abs-center
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+  }
+</style>
+<body>
+    <div class="container">
+    <div class="abs-center">
+        <form action="" method ="POST">
+        <center><img src="imagenes/logo5.png"><br></center>
+        <p>INICIAR SESION</p>  
+        <label for=""> Usuario</label>
+        <input type="text" name="usu"><br>
+        <label for="">Contraseña</label><br>
+        <input type="text"name="clave"><br>
+        <div class ="alert"><?php echo(isset($alert) ? $alert :'') ?> </div>
+        <button>Ingresar </button><br>
+        </form></div></div>
+</body>
+</html>
